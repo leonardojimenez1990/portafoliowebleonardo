@@ -369,7 +369,7 @@ section .container {
 }
 
 .section-title h2 {
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -534,7 +534,7 @@ section .container {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-size: 16px;
+  font-size: 12px;
   color: #fff;
 }
 
@@ -565,7 +565,7 @@ section .container {
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
   color: #fff;
@@ -952,7 +952,7 @@ section .container {
 }
 
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+  font-size: 12px;
   font-weight: 400;
   margin-bottom: 20px;
 }
@@ -1014,7 +1014,7 @@ section .container {
 }
 
 .contact .info-box h3 {
-  font-size: 20px;
+  font-size: 12px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
   margin: 10px 0 8px 68px;
