@@ -3239,11 +3239,11 @@ input, select, textarea {
 	  }
 	  
 	  .read-more-state~.read-more-trigger:before {
-		content: 'Ver más';
+		content: '+';
 	  }
 	  
 	  .read-more-state:checked~.read-more-trigger:before {
-		content: 'Ver menos';
+		content: '-';
 	  }
 	  
 	  .read-more-trigger {
