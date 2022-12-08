@@ -3271,3 +3271,55 @@ input, select, textarea {
 		border: 0px solid #fce29f;
 		border-radius: .25em;
 	  }
+
+	  	/* leer mas leer menos proyectos */
+	.read-more-state-proyectos {
+		display: none;
+	  }
+	  
+	  .read-more-target-proyectos {
+		opacity: 0;
+		max-height: 0;
+		font-size: 0;
+		transition: .25s ease;
+	  }
+	  
+	  .read-more-state-proyectos:checked~.read-more-wrap-proyectos .read-more-target-proyectos {
+		opacity: 1;
+		font-size: 13px;
+		max-height: 999em;
+	  }
+	  
+	  .read-more-state-proyectos~.read-more-trigger-proyectos:before {
+		content: '+';
+	  }
+	  
+	  .read-more-state-proyectos:checked~.read-more-trigger-proyectos:before {
+		content: '-';
+	  }
+	  
+	  .read-more-trigger-proyectos {
+		cursor: pointer;
+		display: inline-block;
+		padding: 0 .5em;
+		color: rgb(90, 87, 87);
+		font-size: .9em;
+		line-height: 2;
+		border: 1px solid rgb(100, 192, 116);
+		border-radius: .25em;
+	  }
+	  
+	  
+	  /* Other style */
+	  
+	  body {
+		padding: 2%;
+	  }
+	  
+	  p {
+		padding: 2%;
+		background: #fff9c600;
+		color: #2e2e2d;
+		border: 0px solid #fce29f;
+		border-radius: .25em;
+	  }
