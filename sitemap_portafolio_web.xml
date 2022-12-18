@@ -2,11 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.https://leonardojimenez1990.github.io/portafoliowebleonardo/</loc>
+		<xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://www.https://leonardojimenez1990.github.io/portafoliowebleonardo//index_en.html"/>
 		<priority>0.63</priority>
 		<lastmod>2022-12-09</lastmod>
 	</url>
 	<url>
 		<loc>https://www.https://leonardojimenez1990.github.io/portafoliowebleonardo//index_en.html</loc>
+		<xhtml:link
+               rel="alternate"
+               hreflang="es"
+               href="https://www.https://leonardojimenez1990.github.io/portafoliowebleonardo//index.html"/>
 		<priority>0.38</priority>
 		<lastmod>2022-12-09</lastmod>
 	</url>
